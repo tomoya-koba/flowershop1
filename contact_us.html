@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" type="text/css" href="css/general.css">
+</head>
+<body>
+ <div id="container">
+    <header>
+        <h1 id="website_header" class="main_text">Flower shop Website</h1>
+        <h2 id="subtitle" class="main_text">Homepage</h2>
+        <nav>
+        <a href="index.html">Home</a>
+        <a href="product.html">Products</a>   
+        <a href="about_us.html">About Us</a>   
+        <a id="currentpages" href="contact_us.html">Contact Us</a>   
+        </nav>
+    </header>
+    <form>
+        <label for="firstname">Firstname:</label>
+        <input type="text" id="firstname" placeholder="FirstName" required>
+        <br>
+        <label for="lastname">Lastname:</label>
+        <input type="text" id="lastname" placeholder="LastName">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Password">
+        <br>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday">
+        <br>
+        <label for="email_address">Email address:</label>
+        <input type="email" id="email_address">
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message"></textarea>
+        <br>
+        <label for="country_of_nationality">Country of nationality:</label>
+        <br>
+        <input type="radio" id="armenia" name="country_of_nationality">
+        <label for="armenia">Armenia</label>
+        <br>
+        <input type="radio" id="brazil" name="country_of_nationality">  
+        <label for="bralil">Blazil</label>
+        <br>
+        <input type="radio" id="cyprus" name="country_of_nationality">
+        <label for="cyprus">Cyprus</label>
+        <br>
+        <input type="radio" id="djibouti" name="country_of_nationality">
+        <label for="djibouti">Djibouti</label>
+        <br>
+        <input type="radio" id="eritrea" name="country_of_nationality">
+        <label for="eritrea">Eritrea</label>
+        <br>
+        <label for="coutries_visited">Counries visited:</label>
+        <br>
+        <input type="checkbox" id="afganistan">
+        <label for="afganistan">Afganistan</label>
+        <br>
+        <input type="checkbox" id="belguim">
+        <label for="belguim">Beluguim</label>
+        <br>
+        <input type="checkbox" id="denmark">
+        <label for="denmark">Denmark</label>  
+        <br> 
+        <input type="checkbox" id="egypt">
+        <label for="egypt">Egypt</label>   
+        <br>
+        <label for="favorite_color">Favorite color:</label>
+        <select id="favorite_color">
+            <option value="aubergine">Aubergine</option>
+            <option value="brown">Brown</option>
+            <option value="cyan">Cyan</option>
+            <option value="darkred">Dark Red</option>
+        </select>
+        <br>
+        <label for="favorite_shape">Favorite shape:</label>
+        <select id="favorite_shape" multiple>
+            <option value="circle">Circle</option>
+            <option value="square">Square</option>
+            <option value="rectangle">Rectangle</option>
+            <option value="heart">Heart</option>
+        </select>
+        <br>
+        <label for="favorite_number">Favorite number:</label>
+        <input type="number" id="favorite_number" min="0" max="9">
+        <br>
+        <label for="attachment">Attachment:</label>
+        <input type="file" id="attachment">
+        <br>
+        <button type="submit" value="submit">Submit</button>
+        <br>
+        <input type="button" id="custom_button" value="Submit">
+        <br>
+        </form>
+    <footer>
+        Copyright 2021
+    </footer>
+ </div>
+</body>
+</html>
